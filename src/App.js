@@ -49,7 +49,7 @@ function App() {
         <button>Convert</button>
       </form>
 
-      {bit == "" ? null : <div>to bitcoin : {bit}</div>}
+      {bit === "" ? null : <div>to bitcoin : {bit}</div>}
     </div>
   );
 }
